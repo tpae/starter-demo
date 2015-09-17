@@ -1,0 +1,15 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Dummy</title>
+    <link rel="stylesheet" href="/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="/bootstrap/css/bootstrap-theme.css">
+  </head>
+  <body>
+    <div id="main-mount">
+      <%- reactOutput %>
+    </div>
+    <script> window.INITIAL_PROPS = <%- props %>; </script>
+    <script src="<%- jsx %>"></script>
+  </body>
+</html>
